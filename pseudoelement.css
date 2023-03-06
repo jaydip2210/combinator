@@ -1,0 +1,18 @@
+.logo h1::first-letter{
+    color: brown;
+    font-size: 30px;
+    font-weight: bold;
+}
+.logo p::first-line{
+    color: brown;
+    font-style: italic;
+}
+.logo2 h1+p{
+    color: aqua;
+}
+.logo h1::before{
+    content: '*';
+}
+.logo h1::after{
+    content: '--';
+}

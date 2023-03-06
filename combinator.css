@@ -1,0 +1,9 @@
+.combi>p{
+    color: brown;
+}
+.combi2 h2+p{
+    color: blue;
+}
+.combi3 div~p{
+    color: aqua;
+}
